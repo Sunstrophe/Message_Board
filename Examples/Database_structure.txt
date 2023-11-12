@@ -1,0 +1,12 @@
+*Accounts
+account_id = SERIAL starting from 1M
+Username = varchar(25)
+Password = Probably going to let this be the account id
+Messages = Foreign key
+last_logged_in = Timestamp
+Created = Date
+
+    *Messages
+    msg_id = Serial from 1
+    text = txt
+    timestamp = Timestamp
